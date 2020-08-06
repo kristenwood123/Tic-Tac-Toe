@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(142, 111, 172);
+color: yellow;
+}
+
+.grid { 
+display: flex;
+flex-wrap: wrap;
+width: 606px;
+height: 606px;
+border: solid rgb(235, 105, 127) 4px;
+margin: auto;
+}
+
+.grid div {
+width: 200px;
+height: 200px; 
+background-color: rgb(118, 202, 195);
+border: solid rgb(245, 223, 98) 1px;
+}
+
+
+.playerX {
+    background-image: url('cross.png');
+}
+
+.playerO {
+    background-image: url('circle.png');
+}
+
+
+
+
